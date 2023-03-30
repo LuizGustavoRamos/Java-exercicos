@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Main {
+  public static void main(String args[]) {
+    Scanner ler;
+    int num;
+    int restodivisao;
+
+    ler = new Scanner(System.in);
+    System.out.print("Digite um valor: ");
+    num = ler.nextInt();
+
+    restodivisao = num % 2;
+    
+    if (restodivisao == 0) {
+      System.out.println("O número é par!");
+    } else {
+      System.out.println("O numero é impar!");
+    }
+  }
+}

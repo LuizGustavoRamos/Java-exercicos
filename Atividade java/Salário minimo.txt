@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class Main {
+  public static void main(String args[]) {
+    int salario_usuario;
+    int sm;
+    Scanner ler;
+
+    ler = new Scanner(System.in);
+    System.out.print("Informe seu sálario: ");
+    salario_usuario = ler.nextInt();
+
+    sm = salario_usuario / 1200;
+    System.out.print("Você possui uma quantidade de salários minimos igual a: "+ sm);
+  }
+}

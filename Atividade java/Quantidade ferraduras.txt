@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class Main {
+  public static void main(String args[]) {
+    Scanner entrada;
+    int qtdcavalos;
+    int qtdferraduras;
+
+    entrada = new Scanner(System.in);
+
+    System.out.print("Número de cavalos: ");
+    qtdcavalos = entrada.nextInt();
+
+    qtdferraduras = qtdcavalos * 4;
+
+    System.out.print("Quantidade de ferraduras necessárias: "+ qtdferraduras);
+
+  }
+}

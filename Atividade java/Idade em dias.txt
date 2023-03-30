@@ -1,0 +1,21 @@
+import java.util.Scanner;
+class Main{
+  public static void main (String args[]) {
+    String nome;
+    int idade;
+    int dias;
+    Scanner entrada;
+    
+    entrada = new Scanner(System.in);
+    System.out.print("Qual o seu nome? ");
+    nome = entrada.nextLine();
+    
+    System.out.print("Qual a sua idade? ");
+    idade = entrada.nextInt();
+
+    dias = idade * 365;
+
+    System.out.print("Seu nome é " + nome);
+    System.out.print(" e você ja viveu em dias: " + dias);
+  }
+}

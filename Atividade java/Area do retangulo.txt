@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class Main {
+  public static void main(String args[]) {
+    Scanner ler;
+    double altura, base, areaRetangulo;
+
+    ler = new Scanner(System.in);
+    System.out.println("Altura do retângulo: ");
+    altura = ler.nextDouble();
+
+    System.out.println("Base do retângulo: ");
+    base = ler.nextDouble();
+
+    areaRetangulo = altura * base;
+
+    System.out.printf("A area do retângulo é: "+ areaRetangulo);
+  }
+}

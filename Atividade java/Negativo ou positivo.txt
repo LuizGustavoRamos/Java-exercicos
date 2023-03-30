@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Main {
+  public static void main(String args[]) {
+    Scanner ler;
+    int num;
+    ler = new Scanner(System.in);
+
+    System.out.print("Digite um valor: ");
+    num = ler.nextInt();
+
+    if (num >= 0) {
+      System.out.print("O número é positivo! ");
+    }else{
+      System.out.print("O número é negativo! ");
+    }
+    }
+  }

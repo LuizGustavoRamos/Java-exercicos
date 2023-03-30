@@ -1,0 +1,32 @@
+import java.util.Scanner;
+class Main {
+  public static void main(String args[]) {
+    Scanner entrada;
+    int telefone;
+    String nome; 
+    String endereco; 
+    String area; 
+
+    entrada = new Scanner(System.in);
+    System.out.print("Digite seu nome: ");
+    nome = entrada.nextLine();
+
+    System.out.print("Digite seu telefone: ");
+    telefone = entrada.nextInt();
+
+    System.out.print("Digite seu endereço: ");
+    endereco = entrada.next();
+
+    System.out.print("Area de atuação: ");
+    area = entrada.next();
+
+    
+    System.out.println("Seu nome: "+ nome);
+    System.out.println("Seu telefone: "+ telefone);
+    System.out.println("Endereço: "+ endereco);
+    System.out.println("Atuação: "+ area);
+
+    
+    
+  }
+}

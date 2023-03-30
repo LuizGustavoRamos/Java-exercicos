@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Main {
+  public static void main(String args[]) {
+    Scanner ler;
+    int num;
+    int suc;
+    int ant;
+
+    ler = new Scanner(System.in);
+    System.out.println("Digite um valor: ");
+    num = ler.nextInt();
+
+    ant = num - 1;
+    System.out.printf("O antecessor de %d é %d ", num, ant);
+
+    suc = num + 1;
+    System.out.printf("\nO sucessor de %d é %d ", num, suc);
+  }
+}

@@ -1,0 +1,32 @@
+import java.util.Scanner;
+class Main{
+  public static void main(String args[]) {
+    int valor1; 
+    int valor2;
+    int soma; 
+    int mult;
+    int divi;
+    int subt;
+    Scanner ler;
+
+    ler = new Scanner(System.in);
+    System.out.print("Digite o prmeiro valor: ");
+    valor1 = ler.nextInt();
+    
+    System.out.print("Digite o segundo valor: ");
+    valor2 = ler.nextInt();
+    
+    soma=valor1+valor2;
+    System.out.printf("A soma é %d \n", soma);
+    
+    mult=valor1*valor2;
+    System.out.printf("A multiplicação é %d \n", mult);
+    
+    divi=valor1/valor2;
+    System.out.printf("A divisão é %d \n", divi);
+    
+    subt=valor1-valor2;
+    System.out.printf("A subtração é %d \n", subt);
+    
+  }
+}
